@@ -1,0 +1,381 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Header {
+    overflow: hidden;
+
+}
+
+/* .text h1{
+        display: inline-block;
+        font-size: 70px;
+        margin-left: -109px;
+        margin-top: -5px;
+        overflow: hidden;
+ 
+} */
+
+.Header i {
+
+    font-size: 40px;
+    margin-top: 23px;
+    color: cornflowerblue;
+
+}
+
+.Nav1 {
+    float: left;
+    font-size:30px;
+    font-weight:bold;
+    margin-left:140px;
+}
+
+.Nav1 h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Nav {
+    width: 85%;
+
+}
+
+.Nav ul {
+    list-style: none;
+    text-align: right;
+    /* padding-right: 118px;
+    margin-top: 8px
+    position: sticky; */
+}
+
+.Nav li {
+
+    display: inline-block;
+    /* background-color: seagreen; */
+    padding: 5px;
+}
+
+
+.Nav a {
+
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    /* font-size: 16px; */
+    /* color: rgb(14, 7, 7); */
+    /* border-bottom: 3px solid red; */
+}
+
+
+/* .nav a:hover {
+
+    background-color: plum;
+} */
+
+.active {
+    background-color: greenyellow;
+}
+
+
+
+
+.Banner {
+    text-align: center;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -19px;
+    padding: 200px 0;
+}
+
+
+.Banner h1 {
+
+    color: white;
+    font-size: 50px;
+
+}
+
+.Banner p {
+
+
+    font-size: 15px;
+    color: white;
+    width: 37%;
+    margin: 0 auto;
+}
+
+.Banner a {
+    text-decoration: none;
+    text-align: center;
+    color: beige;
+    /* border: 0px solid; */
+    background-color: dimgrey;
+    padding: 6px 35px;
+    word-spacing: 2px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+.Banner a:hover {
+    background-color: grey;
+}
+
+#Container {
+
+    display: block;
+    line-height: 20px;
+    padding: 200px;
+    text-align: center;
+    position: relative;
+    margin-top: -300px;
+
+}
+
+
+.box1 {
+
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    right: 204px;
+}
+
+.box1 i {
+    margin: 50px;
+    font-size: 70px;
+}
+
+
+.box1 p {
+    padding: 24px;
+    margin: 0px 0px;
+    width: 302px;
+}
+
+
+.box2 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    left: 203px;
+}
+
+.box2 i {
+    margin: 50px;
+    font-size: 70px;
+}
+
+.box2 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+}
+
+.box3 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    left: 585px;
+}
+
+.box3 i {
+    margin: 50px;
+    font-size: 70px;
+}
+
+.box3 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+}
+
+
+
+/* Start Services Part */
+
+.after h1::after{
+display: block;
+content: "";
+height: 2px;
+width:70px;
+background-color: black;
+border-bottom: 2px;
+margin-left: 720px;
+margin-top: 10px;
+
+}
+
+.services {
+
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 280px;
+}
+
+/* .services h1 {
+    font-size: 40px;
+    display:inline-block;
+    border-bottom: 2px solid black;  
+} */
+
+
+
+
+.services .services_item {
+    position: relative;
+}
+
+
+.services .services1 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+    /* text-shadow: 1px 0px tomato; */
+}
+
+.services .services1 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services1 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services1:hover {
+    background-color: pink;
+}
+
+
+.services .services2 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 586px;
+}
+
+.services .services2 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services2 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services3 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 71px;
+    margin-left: 972px;
+}
+
+.services .services3 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services3 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services4 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+.services .services4 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services4 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services5 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 586px;
+}
+
+.services .services5 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services5 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services6 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-left: 972px;
+    margin-top: 500px;
+}
+
+.services .services6 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services6 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+/* Ending the Services Part */
